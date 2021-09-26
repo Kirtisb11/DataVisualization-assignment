@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+.sampleformstyle{
+	background-color: rgb(103, 58, 183);
+    height: 10px;
+    margin: 0 0 0 35px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.starStyle {
+    color: #db0e01;
+    font-family: Roboto;
+}
+</style>
+</head>
+  <body>
+  <div class="sampleformstyle"></div>
+  <div class="row" style="height: 148px; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+                <div class="" style="display: grid;font-family: Roboto;">
+                  <span style="margin: 0 0 0 21px;font-size: 37px;">Sample Form</span>
+                  <span style="margin: 0 0 0 23px;font-size: 16px;">Choose a topic, and research interest for the individual visualization project.</span>
+				  <span style="margin: 11px 0 0 0px;" class="seperator"></span>
+				  <span class="mailStyle">kirtisb11@gmail.com <a href="" style="font-size: 12px;">Switch account</a></span>
+				  <span class="requiredStyle">* Required</span>
+                </div>
+</div>
+        <form>
+        <div class="row" style="height: 148px;margin: 5% 0 0 0%; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+                <div style="display: grid; font-family: Roboto; padding: 24px 0 0 23px;">
+                  
+                  <label >Email<b class="starStyle">*</b></label>
+                  <input style="margin: 32px 0 0 0px;" placeholder="Your Email" type="text"  required >
+                </div>
+          </div>
+          <div class="row" style="height: 148px;margin: 5% 0 0 0%; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+                <div style="display: grid; font-family: Roboto; padding: 24px 0 0 23px;">
+                  
+                  <label >First Name</label>
+                  <input style="margin: 32px 0 0 0px;" placeholder="Your Answer" type="text" >
+                  
+                </div>
+          </div>
+          <div class="row" style="height: 148px;margin: 5% 0 0 0%; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+                <div style="display: grid; font-family: Roboto; padding: 24px 0 0 23px;">
+                  
+                  <label >Last Name</label>
+                  <input style="margin: 32px 0 0 0px;" placeholder="Your Answer" type="text" >
+                  </div>
+           </div>
+                  
+         <div class="row" style="height: 148px;margin: 5% 0 0 0%; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+            <div style="display: grid; font-family: Roboto; padding: 24px 0 0 23px;">
+                  
+                  <label >Research Interest (list at least 3) <b class="starStyle">*</b></label>
+                  <input style="margin: 32px 0 0 0px;" placeholder="Your Answer" type="text" required>
+                  
+            </div>
+        </div>
+        <div class="row" style="height: 148px;margin: 5% 0 0 0%; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+            <div style="display: grid; font-family: Roboto; padding: 24px 0 0 23px;">
+                  
+                  <label >Project Title - (e.g. income vs education US Census) <b class="starStyle">*</b></label>
+                  <input style="margin: 32px 0 0 0px;" placeholder="Your Answer" type="text" required>
+                  
+            </div>
+        </div>
+          <div class="row" style="height:300px;margin: 5% 0 0 0%; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+            <div style="display: grid; font-family: Roboto; padding: 24px 0 0 23px;">
+            <label for="Top Skills">Top Skills</label>
+          </div>
+          <input type="checkbox" name="SQL" value="SQL"> SQL<br> 
+          <input type="checkbox" name="Python Programming" value="Python Programming"> Python Programming<br>
+          <input type="checkbox" name="PHP" value="PHP"> PHP<br> 
+          <input type="checkbox" name="Excel" value="Excel"> Excel<br>
+          <input type="checkbox" name="Powerbi" value="Powerbi"> Powerbi<br>
+          <input type="checkbox" name="Others" value="Others"> 
+          <label>Others</label>
+         
+          <input type="text">
+        </div>
+        <div class="row" style="height: 148px;margin: 5% 0 0 0%; -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 37%);">
+          <div style="display: grid; font-family: Roboto; padding: 24px 0 0 23px;">
+                  
+                  <label >Suggestions or Questions</label>
+                  <input style="margin: 32px 0 0 0px;" placeholder="Your Answer" type="text">
+                  
+            </div>
+        </div>
+          <button type="button" class="btn btn-primary" onclick="send_data()">Submit</button>
+        </form>
+      </div>
+
+
+  </body>
+</html>
+
